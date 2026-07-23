@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib 
-model=joblib.load("loan approval.joblib")
+model=joblib.load("Loan approval.joblib")
 sclar=joblib.load("sclar.joblib")
 st.title("Loan Approval Prediction System")
 st.write("This application predicts whether a loan application is likely to be approved based on the applicant's information.")
